@@ -67,6 +67,18 @@
     color: var(--color-terracotta);
 }
 
+.footer-contact-item {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.contact-label {
+    font-size: 0.875rem;
+    color: var(--color-charcoal);
+    font-weight: 500;
+}
+
 .footer-newsletter h4 {
     font-family: var(--font-sans);
     font-size: 0.75rem;

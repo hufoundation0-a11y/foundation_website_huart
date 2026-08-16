@@ -21,7 +21,10 @@ function Footer() {
                     <div className="footer-section">
                         <h4>Connect</h4>
                         <ul>
-                            <li><a href="mailto:hu.foundation.0@gmail.com">Email Us</a></li>
+                            <li className="footer-contact-item">
+                                <span className="contact-label">Email Us</span>
+                                <a href="mailto:hu.foundation.0@gmail.com">hu.foundation.0@gmail.com</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
